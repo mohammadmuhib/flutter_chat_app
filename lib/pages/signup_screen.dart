@@ -33,8 +33,7 @@ class _SignupScreenState extends State<SignupScreen> {
               style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
             ),
             Padding(
-              padding:
-                  const EdgeInsets.symmetric(vertical: 32.0, horizontal: 16.0),
+              padding: const EdgeInsets.symmetric(vertical: 32.0, horizontal: 16.0),
               child: Column(
                 children: [
                   TextFormField(
@@ -53,8 +52,7 @@ class _SignupScreenState extends State<SignupScreen> {
                     },
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(
-                        vertical: 6.0, horizontal: 14.0),
+                    padding: const EdgeInsets.symmetric(vertical: 6.0, horizontal: 14.0),
                   ),
                   TextFormField(
                     decoration: InputDecoration(
@@ -72,8 +70,7 @@ class _SignupScreenState extends State<SignupScreen> {
                     },
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(
-                        vertical: 6.0, horizontal: 14.0),
+                    padding: const EdgeInsets.symmetric(vertical: 6.0, horizontal: 14.0),
                   ),
                   TextFormField(
                     obscureText: true,
@@ -94,8 +91,7 @@ class _SignupScreenState extends State<SignupScreen> {
                     },
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(
-                        vertical: 6.0, horizontal: 14.0),
+                    padding: const EdgeInsets.symmetric(vertical: 6.0, horizontal: 14.0),
                   ),
                   TextFormField(
                     obscureText: true,
@@ -117,6 +113,13 @@ class _SignupScreenState extends State<SignupScreen> {
                   ),
                   SizedBox(
                     height: 25.0,
+                  ),
+                  ElevatedButton(
+                    child: Text("Sign up Test by mohammad"),
+                    onPressed: () {
+                      // Navigator.pushNamed(context, "/Login");
+                      if (_formkey.currentState.validate()) {}
+                    },
                   ),
                   ElevatedButton(
                     child: Text("Sign up Test"),
