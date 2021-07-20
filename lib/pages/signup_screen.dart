@@ -118,6 +118,9 @@ class _SignupScreenState extends State<SignupScreen> {
                   SizedBox(
                     height: 25.0,
                   ),
+
+                  // I have codeed here new button as below but before taking pull you should always commit your code
+                  // I am doing see
                   ElevatedButton(
                     child: Text("Sign up Test"),
                     onPressed: () {
@@ -133,6 +136,20 @@ class _SignupScreenState extends State<SignupScreen> {
                         // next ab jab tum push pull kroge toh vo dekho kaise kr raha hu
                         //ok
                         // ab mai kuch chnage kr raha hu code me phir usko push karunga
+                        //STEP1: git add .
+                        //STEP2: git commit -m "Signup button chnage"
+                        //STEP3: git push origin main
+
+                        // clear hua? yes pull ok wait i am cloning your repo into my system and i will add some code from my system
+                        // and i will push from my pc into new branch then you can take pull
+                        // new branch can be created by anyone
+                        // let me add myself to your branch
+
+                        // I am pishing code into your repo from my system
+                        // I can also push into main branch
+                        // mai me karu ya new branch banau?krdijiye uxsi trh ok
+
+                        // I have pushed
                       }
                     },
                   ),
