@@ -119,12 +119,20 @@ class _SignupScreenState extends State<SignupScreen> {
                     height: 25.0,
                   ),
                   ElevatedButton(
-                    child: Text("Sign up"),
+                    child: Text("Sign up Test"),
                     onPressed: () {
                       // Navigator.pushNamed(context, "/Login");
                       if (_formkey.currentState.validate()) {
                         // Code if validation pass
-
+                        // aise krte hai validate got it?
+                        // isme agr hm valid option dalenge tbhi second option pr click huga ya phle firbase se connect krna huga
+                        //second option matlab? matlb ki sign up se login login se homepage
+                        // vo ab mmat karo thoda aur flow samjho isko baad me seekhhna ok aur kuch?isko pull or push krna bataye isme to wahi confusion h ok
+                        // ye jo maine abhi jitne steps kiya hu ye bas ek baar hi krna hota hai jab project ko first time push krte hai git pe
+                        // agar abhi ni aiya hai samajh me toh ye steps bar bar ni krna hota hai toh abhi itna imp ni hai ab maine toh kr diya hai
+                        // next ab jab tum push pull kroge toh vo dekho kaise kr raha hu
+                        //ok
+                        // ab mai kuch chnage kr raha hu code me phir usko push karunga
                       }
                     },
                   ),
